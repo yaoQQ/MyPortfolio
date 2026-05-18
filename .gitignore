@@ -4,6 +4,7 @@ dist-ssr
 *.local
 .trae
 *.py
+*.txt
 .DS_Store
 *.suo
 .vscode
@@ -11,3 +12,4 @@ dist-ssr
 logs
 *.log
 .vite
+repo_clone
