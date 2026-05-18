@@ -1,0 +1,56 @@
+============================================================
+Step 1: Clean current directory and copy backup
+============================================================
+  Warning: Could not remove c:\Users\yq\OneDrive\Desktop\作品集网站1\.gitignore: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'c:\\Users\\yq\\OneDrive\\Desktop\\作品集网站1\\.gitignore'
+  Copied: .gitignore
+  Copied: eslint.config.js
+  Copied: images
+  Copied: index.html
+  Copied: package.json
+  Copied: postcss.config.js
+  Copied: public
+  Copied: src
+  Copied: tailwind.config.js
+  Copied: tsconfig.json
+  Copied: vite.config.ts
+
+============================================================
+Step 2: Fix vite.config.ts for GitHub Pages
+============================================================
+  Fixed vite.config.ts
+
+============================================================
+Step 3: Fix .gitignore
+============================================================
+  Fixed .gitignore - docs/ is NOT ignored
+
+============================================================
+Step 4: Fix index.html favicon path
+============================================================
+  Fixed favicon path
+
+============================================================
+Step 5: Install dependencies
+============================================================
+
+>>> npm install...
+
+added 255 packages, and audited 256 packages in 1m
+
+63 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+============================================================
+Step 6: Build the project
+============================================================
+
+>>> npx vite build...
+Command exception: 'gbk' codec can't encode character '\u2713' in position 82: illegal multibyte sequence
+Build with npx vite build failed, trying npm run build...
+
+>>> npm run build...
+Command exception: 'gbk' codec can't encode character '\u2713' in position 138: illegal multibyte sequence
+BUILD FAILED!
