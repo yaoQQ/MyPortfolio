@@ -1,5 +1,5 @@
 import { ChevronDown, Mail, Phone, MapPin } from "lucide-react";
-import ParticleBackground from "@/components/ParticleBackground";
+import SpaceMeteorBackground from "@/components/SpaceMeteorBackground";
 
 const tags = ["10年游戏行业经验", "独立游戏开发者", "新技术探索者", "游戏竞技玩家"];
 const keywords = ["游戏开发", "Unity3D", "全栈开发", "DOTS", "Vibe Coding"];
@@ -15,7 +15,7 @@ export default function Hero() {
       id="hero"
       className="relative min-h-screen flex items-center justify-center overflow-hidden bg-dark-bg"
     >
-      <ParticleBackground />
+      <SpaceMeteorBackground />
 
       <div className="absolute inset-0 bg-gradient-to-b from-dark-bg/80 via-transparent to-dark-bg z-[1]" />
       <div className="absolute inset-0 bg-gradient-to-r from-neon-purple/5 via-transparent to-neon-blue/5 z-[1]" />
