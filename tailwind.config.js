@@ -27,6 +27,7 @@ export default {
         "dark-panel": "#1a1a2e",
         "neon-blue": "#00d4ff",
         "neon-purple": "#a855f7",
+        "neon-yellow": "#fbbf24",
         "accent-green": "#22c55e",
       },
       fontFamily: {

@@ -11,7 +11,9 @@ export default function Footer() {
             <h3 className="mb-3 text-xl font-bold text-white">姚强</h3>
             <p className="mb-1 text-sm text-neon-blue">Unity3D 游戏开发工程师</p>
             <p className="mb-1 text-sm text-neon-purple">全栈开发工程师</p>
+            <p className="mb-1 text-sm text-neon-yellow">独立游戏开发者</p>
             <p className="text-sm text-accent-green">新技术研究员</p>
+
           </div>
 
           <div>

@@ -1,7 +1,7 @@
 import { ChevronDown, Mail, Phone, MapPin } from "lucide-react";
 import ParticleBackground from "@/components/ParticleBackground";
 
-const tags = ["10年游戏行业经验", "独立游戏开发者", "新技术探索者"];
+const tags = ["10年游戏行业经验", "独立游戏开发者", "新技术探索者", "游戏竞技玩家"];
 const keywords = ["游戏开发", "Unity3D", "全栈开发", "DOTS", "Vibe Coding"];
 
 export default function Hero() {
