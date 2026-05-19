@@ -4,7 +4,6 @@ dist-ssr
 *.local
 .trae
 *.py
-*.txt
 .DS_Store
 *.suo
 .vscode
